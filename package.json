@@ -1,0 +1,39 @@
+{
+  "name": "automotive-qa-platform",
+  "version": "1.0.0",
+  "description": "Automotive Assembly-Line Defect Monitoring, Digital Inspection Workflows & Quality Analytics Platform",
+  "main": "backend/dist/index.js",
+  "scripts": {
+    "start": "node backend/dist/index.js",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "dev:unified": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "automotive",
+    "manufacturing",
+    "quality-assurance",
+    "assembly-line",
+    "defect-tracking",
+    "rework-analysis",
+    "first-time-quality",
+    "six-sigma",
+    "spc",
+    "iot-telemetry",
+    "react",
+    "typescript",
+    "nodejs",
+    "express",
+    "postgresql",
+    "redis",
+    "websockets",
+    "docker"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
